@@ -3,9 +3,10 @@ import ClaudeRecipe from "./ClaudeRecipe";
 import IngredientsList from "./IngredientsList";
 import { getRecipeFromMistral } from "../ai";
 
+
 export default function Main() { 
 
-  const [ingredients, setIngredients] = useState(["all the main spices", "pasta", "ground beef", "tomato paste"]);
+  const [ingredients, setIngredients] = useState([]);
   const [textInput, setTextInput] = useState("");
   const [recipe, setRecipe] = useState("");
 
