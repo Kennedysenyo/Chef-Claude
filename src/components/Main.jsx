@@ -1,6 +1,6 @@
 import { useState } from "react";
-import ClaudeRecipe from "./Recipe";
-import IngredientsList from "./Ingredients";
+import ClaudeRecipe from "./ClaudeRecipe";
+import IngredientsList from "./IngredientsList";
 
 export default function Main() { 
 

@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.33.1",
+    "@huggingface/inference": "^2.8.1",
+    "dotenv": "^16.4.7",
     "react": "^0.0.0-experimental-fc8a898d-20241226",
     "react-dom": "^0.0.0-experimental-fc8a898d-20241226"
   },
