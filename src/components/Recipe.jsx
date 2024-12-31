@@ -1,4 +1,4 @@
-export default function Recipe() {
+export default function ClaudeRecipe() {
   return (
     <section>
         <h2>Chef Claude Recommends:</h2>
